@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="sfartz.alexandra@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>51484adc-7c39-4b1e-bd8e-7c1168867186</external-id>
+        </credentials>
+        <profile>
+            <first-name>Sfartz</first-name>
+            <last-name>Alexandra</last-name>
+            <email>sfartz.alexandra@gmail.com</email>
+        </profile>
+    </user>
+
+</users>
