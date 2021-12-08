@@ -1,4 +1,4 @@
-<header>
+<header class="sticky-header">
     <isinclude template="/components/header/skipNav" />
     <div class="header-banner slide-up d-none">
         <div class="container">
