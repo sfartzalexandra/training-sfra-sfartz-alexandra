@@ -1,0 +1,14 @@
+
+
+
+
+<isdecorate template="common/layout/page">
+
+<h1>My test remote include</h1> <br/>
+
+
+<isinclude url="${URLUtils.https('TestRemoteInclude')}"/>
+
+
+</isdecorate>
+

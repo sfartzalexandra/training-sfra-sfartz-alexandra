@@ -1,0 +1,14 @@
+<isdecorate template="common/layout/page">
+
+<ismodule template="/training/contentAsset"
+	name="producttile"
+	attribute="pid"
+/>
+
+
+<isset name="customVal" value="hello modules" scope="session"/>
+ <h3>${session.custom.customVal}</h3>
+</isdecorate>
+<!--- <ismodule template="components/content/isCustomTag" name="bgcolor" attribute="color"/> --->
+
+<!--- <ismodule template="training/contentAsset" name="bgcolor" attribute="color"/> --->

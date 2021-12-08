@@ -1,0 +1,6 @@
+<isinclude url="${URLUtils.url('RenderTemplate', 'cid', pdict.pid)}"/>
+
+<!--- <isinclude template="components/modules2"/> --->
+<!--- <isinclude template="training/contentAsset"/>
+
+<isbgcolor color="green"/> --->

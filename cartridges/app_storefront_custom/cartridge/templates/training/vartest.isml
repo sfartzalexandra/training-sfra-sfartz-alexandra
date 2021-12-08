@@ -1,0 +1,33 @@
+
+
+
+<isdecorate template="common/layout/page">
+
+<isset name="sessionVar" value="${1}" scope = "session"/>
+
+${session.custom.sessionVar}<br>
+
+${session.custom.sessionVar + 1}<br>
+
+<isset name="myVar" value="hello my var test" scope = "session"/>
+
+${session.custom.myVar}<br>
+
+<isset name="myReqVar" value="hello my REQ var test" scope = "request"/>
+
+${request.custom.myReqVar}<br>
+
+<isset name="myPageVar" value="hello my PAGE var test" scope = "page"/>
+
+${myPageVar}<br>
+
+<isset name="myBooleanVar" value="${false}" scope = "request"/>
+
+${pdict.myBooleanVar !== null}<br>
+
+<isset name="myHelloVar" value="Hello" scope = "request"/>
+
+${pdict.CurrentRequest.custom.myHelloVar}<br>
+
+${pdict.CurrentRequest.custom.myHelloVar + 1}<br>
+</isdecorate>

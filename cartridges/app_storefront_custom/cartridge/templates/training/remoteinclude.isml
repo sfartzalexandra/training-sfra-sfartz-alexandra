@@ -1,0 +1,10 @@
+<isdecorate template="common/layout/page">
+
+
+
+<isset name="myRenderTemplate" value="Hello render" scope = "request"/>
+
+${pdict.CurrentRequest.custom.myRenderTemplate}<br>
+
+
+</isdecorate>
