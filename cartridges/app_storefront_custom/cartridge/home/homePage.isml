@@ -1,8 +1,11 @@
 <!--- this is the home page --->
 
 <isdecorate template="common/layout/page">
-<isinclude template="/components/modules" sf-toolkit="off" />
-<iscontentasset aid="my_project_content_asset"/>
+
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <iscontentasset aid="free_shipping_over_us_50"/>
+    <iscontentasset aid="my_project_content_asset"/>
+    
     <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
         assets.addJs('/js/productTile.js');
