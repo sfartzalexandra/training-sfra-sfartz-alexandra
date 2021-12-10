@@ -77,8 +77,8 @@
                 </div>
                 <!---totals, and checkout actions--->
                 <div class="col-sm-5 col-md-4 totals">
-                <div id="clickBtn" style="cursor:pointer;">Click here if you have a coupon code</div>
-                    <div class="btnShow" style="display:none;">
+                <div id="clickBtn" style="cursor:pointer;">Click here if you have a coupon code.</div>
+                    <div class="btnShow" style="display:none;" >
                         <isinclude template="cart/cartPromoCode" />
                     </div>
 
