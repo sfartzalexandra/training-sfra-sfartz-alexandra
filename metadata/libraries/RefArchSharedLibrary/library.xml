@@ -6386,6 +6386,16 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="free_shipping_over_us_50">
+        <display-name xml:lang="x-default">Free Shipping over US$ 50.00</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h5 style="text-align: center; position: sticky;"&gt;Free Shipping over US$ 50.00&lt;/h5&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="gift-additional-details">
         <display-name xml:lang="x-default">Gift Certificate Additonal Details</display-name>
         <display-name xml:lang="fr-FR">Autres informations sur les chèques-cadeaux</display-name>
